@@ -1,0 +1,229 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.container {
+    position: relative;
+    width: 1440px;
+    height: 1220px;
+    background-color: hsl(270, 20%, 96%);
+    font-size: 16px;
+    font-family: "Rubik", sans-serif;
+
+}
+
+/* background-section */
+.top-left {
+    position: absolute;
+    background-color: hsl(276, 55%, 52%);
+    width: 29%;
+    height: 68%;
+    border-bottom-left-radius: 160px;
+    border-bottom-right-radius: 350px;
+}
+
+.bottom-right {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: hsl(276, 55%, 93%);
+    width: 18%;
+    height: 80%;
+    border-top-left-radius: 250px;
+}
+
+/* phone-section */
+.phone {
+    position: absolute;
+    width: 375px;
+    top: 13%;
+    left: 22%;
+    background-color: hsl(270, 20%, 96%);
+    border-width: 15px;
+    border-style: solid;
+    border-radius: 30px;
+    border-color: hsl(0, 0%, 100%);
+}
+
+.phone-top {
+    background-image: linear-gradient(to right,
+            hsl(264, 100%, 61%) 0%,
+            hsl(293, 100%, 63%) 100%);
+    padding: 0 15px 25px;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.white-top {
+    background-color: hsl(0, 0%, 100%);
+    width: 200px;
+    height: 24px;
+    margin-bottom: 25px;
+    margin-left: 24%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.icon {
+    margin-top: 3%;
+    float: left;
+    max-width: 20px;
+}
+
+.avatar {
+    float: left;
+    max-width: 40px;
+    border-color: hsl(0, 0%, 100%);
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 50px;
+    margin-right: 18px;
+    margin-left: 8px;
+}
+
+.status {
+    font-size: 14px;
+    color: hsl(270, 7%, 90%);
+}
+
+.name {
+    color: hsl(0, 0%, 100%);
+}
+
+h3,
+p {
+    display: inline;
+}
+
+.menu {
+    float: right;
+}
+
+.chat-body {
+    margin: 10px 0;
+}
+
+.chat {
+    border-radius: 12px;
+    padding: 7px;
+    width: 190px;
+    font-size: 13px;
+    color: hsl(206, 6%, 50%);
+}
+
+.chat-a {
+    margin: 10px 10px;
+    background-color: hsl(270, 7%, 90%);
+    border-bottom-left-radius: 3px;
+}
+
+.chat-b {
+    margin: auto auto 10px 42%;
+    border-bottom-right-radius: 3px;
+    background-color: hsl(270, 7%, 99%);
+}
+
+.last-b {
+    margin: auto auto 10px 60%;
+    border-bottom-right-radius: 3px;
+    background-color: hsl(270, 7%, 99%);
+    width: 120px;
+}
+
+.dog-imgs {
+    margin: 20px auto 10px 41%;
+}
+
+.dog-img {
+    max-width: 55px;
+    border-radius: 12px;
+    margin-left: 10px;
+}
+
+.price-div {
+    background-image: linear-gradient(to right,
+            hsl(293, 100%, 63%) 0%,
+            hsl(264, 100%, 61%) 100%);
+    color: hsl(0, 0%, 100%);
+    padding: 8px;
+    border-radius: 12px;
+    border-bottom-right-radius: 3px;
+
+    width: 200px;
+    font-size: 13px;
+}
+
+.radio {
+    max-width: 20px;
+    margin-top: 5px;
+}
+
+.minute {
+    font-weight: 400;
+    font-size: 12px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+span {
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    font-size: 17px;
+    float: right;
+    margin-right: 15px;
+}
+
+.type-here {
+    width: 300px;
+    padding: 15px;
+    border-radius: 50px;
+    background-color: hsl(0, 0%, 100%);
+    margin-left: 5%;
+    margin-bottom: 20px;
+    margin-top: 25px;
+    position: relative;
+}
+
+.text {
+    /* display: inline; */
+    color: hsl(206, 6%, 79%);
+    font-weight: 500;
+    padding: 20px;
+}
+
+.send-icon {
+    position: absolute;
+    bottom: 5px;
+    right: 0;
+    max-width: 20px;
+    padding: 10px;
+    border-radius: 50px;
+    margin-right: 9px;
+    background-color: hsl(271, 36%, 24%);
+}
+
+/* advert-section */
+.booking {
+    position: absolute;
+    width: 450px;
+    left: 57%;
+    top: 30%;
+    z-index: 1;
+    line-height: 2rem;
+}
+
+.booking-head {
+    font-weight: 700;
+    font-size: 2.3em;
+}
+
+.booking-text {
+    color: hsl(206, 6%, 56%);
+}
